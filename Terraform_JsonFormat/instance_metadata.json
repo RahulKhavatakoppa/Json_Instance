@@ -1,0 +1,1853 @@
+[
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": null,
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_DS1_v2",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/ENERGYTIMEPLACE/providers/Microsoft.Compute/virtualMachines/azvmdatagatewaytest",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "northeurope",
+    "name": "azvmdatagatewaytest",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Detach",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/energytimeplace/providers/Microsoft.Network/networkInterfaces/azvmdatagatewaytest58",
+          "primary": null,
+          "resourceGroup": "energytimeplace"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "testuser",
+      "allowExtensionOperations": true,
+      "computerName": "azvmdatagateway",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": false,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "ENERGYTIMEPLACE",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/ENERGYTIMEPLACE/providers/Microsoft.Compute/virtualMachines/azvmdatagatewaytest/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "ENERGYTIMEPLACE",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "22621.1992.230708",
+        "id": null,
+        "offer": "windows-11",
+        "publisher": "microsoftwindowsdesktop",
+        "sharedGalleryImageId": null,
+        "sku": "win11-22h2-pro",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/energytimeplace/providers/Microsoft.Compute/disks/azvmdatagatewaytest_OsDisk_1_9e9878f7cb6146a1afcd4a6c424beccd",
+          "resourceGroup": "energytimeplace",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "azvmdatagatewaytest_OsDisk_1_9e9878f7cb6146a1afcd4a6c424beccd",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-08-04T14:26:12.395317+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "690a9dde-ed91-43b4-a936-067f0f058c1c",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_B2s",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRDAHU/providers/Microsoft.Compute/virtualMachines/testnsg",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "westeurope",
+    "name": "testnsg",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Delete",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrdahu/providers/Microsoft.Network/networkInterfaces/testnsg812_z1",
+          "primary": null,
+          "resourceGroup": "azrdahu"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "azureuser",
+      "allowExtensionOperations": true,
+      "computerName": "testnsg",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": {
+          "publicKeys": [
+            {
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCiG4ghGGMWsRx+KQr2GwcOm0UjM34qXplPFB/d5SD8SLvW3PBRSwJcvUP2OcB/9gd6IK03J0aZ60Eeh4ypqNyONp6/pJ1uVvjEv2aSJhwUyePpIJ6BDeilTD8xsWAnPObVZjg4ECSjinVWkgh84iJ3Y0abTLFfAyv4zIwHcUfLiC2HNw9qWcUff5xza1Av+7/6iNcqLWr+hi/mgpdR1v5wV7Dg1qchcqfSBHwE/DfEE20QpsZbCk7J8J0U8CL1X0+koh9QQOkiPig4XmlSNhCAx733wA5YSjgQM2c921alOPvTk3M7jrn7sLrxOn1D/BfUosCHIKF2uDw3KeetOltt+gpTHfOM8+TSZSkyA2aL4lZm00f47x/8z3t9V285I3ghmE1hP6tuC5RJ4iC0z+THcNRMgck/0WLnCwyx66ZUB5B9/oyxXJ3jknlcM4lWq20MAN8zHjraeptNOC8qecDtXj/NpQaLQktejpyQXvSPB9j0DoO9ufh7kmdnDLYsvcE= generated-by-azure",
+              "path": "/home/azureuser/.ssh/authorized_keys"
+            }
+          ]
+        }
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": {
+      "name": "cis-ubuntu-linux-2204-l1-gen2",
+      "product": "cis-ubuntu-linux-2204-l1",
+      "promotionCode": null,
+      "publisher": "center-for-internet-security-inc"
+    },
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRDAHU",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRDAHU/providers/Microsoft.Compute/virtualMachines/testnsg/extensions/LinuxAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRDAHU",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRDAHU/providers/Microsoft.Compute/virtualMachines/testnsg/extensions/MDE.Linux",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRDAHU",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRDAHU/providers/Microsoft.Compute/virtualMachines/testnsg/extensions/OMSAgentForLinux",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRDAHU",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "1.0.7",
+        "id": null,
+        "offer": "cis-ubuntu-linux-2204-l1",
+        "publisher": "center-for-internet-security-inc",
+        "sharedGalleryImageId": null,
+        "sku": "cis-ubuntu-linux-2204-l1-gen2",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRDAHU/providers/Microsoft.Compute/disks/testnsg_OsDisk_1_c187052bffdc4ce49d2e8400e4dc9698",
+          "resourceGroup": "AZRDAHU",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "testnsg_OsDisk_1_c187052bffdc4ce49d2e8400e4dc9698",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-06-22T14:24:36.931613+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "3a75134d-704c-4e36-b098-c1d0b3ed7482",
+    "zones": [
+      "1"
+    ]
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdk-0",
+    "identity": {
+      "principalId": "6038e88d-f20b-458d-9310-907538b7ac45",
+      "tenantId": "329e91b0-e21f-48fb-a071-456717ecc28e",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "avdk-0",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/avdk-0-nic",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "avdk-0",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": null,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdk-0/extensions/AADLoginForWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdk-0/extensions/MDE.Windows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdk-0/extensions/Microsoft.PowerShell.DSC",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdk-0/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "0.0.2",
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/galleries/gallery/images/test/versions/0.0.2",
+        "offer": null,
+        "publisher": null,
+        "resourceGroup": "azrtestavd",
+        "sharedGalleryImageId": null,
+        "sku": null,
+        "version": null
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Detach",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/avdk-0_OsDisk_1_7f053f644a1c49e08d5343c44b23a5fe",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "avdk-0_OsDisk_1_7f053f644a1c49e08d5343c44b23a5fe",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14",
+      "cm-resource-parent": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.DesktopVirtualization/hostpools/test"
+    },
+    "timeCreated": "2023-09-06T10:27:26.616452+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "923642c6-7620-4078-84e5-da73b1df899a",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0",
+    "identity": {
+      "principalId": "4e578475-c88e-4a18-8235-38af53cb0e1a",
+      "tenantId": "329e91b0-e21f-48fb-a071-456717ecc28e",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "avdkillian-0",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/avdkillian-0-nic",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminuser",
+      "allowExtensionOperations": true,
+      "computerName": "avdkillian-0",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": null,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0/extensions/AADLoginForWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0/extensions/AzurePolicyforWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0/extensions/MDE.Windows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0/extensions/Microsoft.PowerShell.DSC",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/avdkillian-0/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "0.0.1",
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/galleries/gallery/images/test/versions/0.0.1",
+        "offer": null,
+        "publisher": null,
+        "resourceGroup": "azrtestavd",
+        "sharedGalleryImageId": null,
+        "sku": null,
+        "version": null
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Detach",
+        "diffDiskSettings": null,
+        "diskSizeGb": 127,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/avdkillian-0_OsDisk_1_fc9b4aba4a1b4f229a936a85422701fd",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": "StandardSSD_LRS"
+        },
+        "name": "avdkillian-0_OsDisk_1_fc9b4aba4a1b4f229a936a85422701fd",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14",
+      "cm-resource-parent": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.DesktopVirtualization/hostpools/test"
+    },
+    "timeCreated": "2023-08-29T08:18:48.356218+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "7f328087-491c-4faa-b375-96f981a32e0a",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-0",
+    "identity": {
+      "principalId": "5f40dfc6-0545-470d-843d-b655ee61c400",
+      "tenantId": "329e91b0-e21f-48fb-a071-456717ecc28e",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "files-0",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/files-0-nic",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "files-0",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": null,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-0/extensions/AADLoginForWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-0/extensions/MDE.Windows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-0/extensions/Microsoft.PowerShell.DSC",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": null,
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "0.0.1",
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/galleries/gallery/images/TestFileshare/versions/0.0.1",
+        "offer": null,
+        "publisher": null,
+        "resourceGroup": "azrtestavd",
+        "sharedGalleryImageId": null,
+        "sku": null,
+        "version": null
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Detach",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/files-0_OsDisk_1_7b0672b6b6bf4897bf7f1ab055d43690",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "files-0_OsDisk_1_7b0672b6b6bf4897bf7f1ab055d43690",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14",
+      "cm-resource-parent": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.DesktopVirtualization/hostpools/test"
+    },
+    "timeCreated": "2023-09-12T07:27:57.139770+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "6eb1d0ac-497b-4729-9ffe-03a03f3b4ade",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_D2s_v3",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1",
+    "identity": {
+      "principalId": "08693b77-bd48-4116-bcd2-7dd245190daa",
+      "tenantId": "329e91b0-e21f-48fb-a071-456717ecc28e",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "files-1",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/files-1-nic",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "files-1",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": null,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1/extensions/AADLoginForWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1/extensions/AzurePolicyforWindows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1/extensions/MDE.Windows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1/extensions/Microsoft.PowerShell.DSC",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/files-1/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": null,
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "0.0.1",
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/galleries/gallery/images/TestFileshare/versions/0.0.1",
+        "offer": null,
+        "publisher": null,
+        "resourceGroup": "azrtestavd",
+        "sharedGalleryImageId": null,
+        "sku": null,
+        "version": null
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Detach",
+        "diffDiskSettings": null,
+        "diskSizeGb": 127,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/files-1_OsDisk_1_6a63429c3c7147448848a4408bc55655",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": "StandardSSD_LRS"
+        },
+        "name": "files-1_OsDisk_1_6a63429c3c7147448848a4408bc55655",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14",
+      "cm-resource-parent": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.DesktopVirtualization/hostpools/test"
+    },
+    "timeCreated": "2023-09-12T07:27:57.249153+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "2aff6710-d67e-4eee-9cc5-27d5cbbd3073",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_DS1_v2",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/imagebuilder",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "imagebuilder",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Delete",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/imagebuilder452",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminuser",
+      "allowExtensionOperations": true,
+      "computerName": "imagebuilder",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": false,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/imagebuilder/extensions/MDE.Windows",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/imagebuilder/extensions/MicrosoftMonitoringAgent",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/imagebuilder/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "19044.3324.230801",
+        "id": null,
+        "offer": "Windows-10",
+        "publisher": "MicrosoftWindowsDesktop",
+        "sharedGalleryImageId": null,
+        "sku": "win10-21h2-avd-g2",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/imagebuilder_OsDisk_1_aa42cb8ee2c64339a34ee8971a9c9de7",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "imagebuilder_OsDisk_1_aa42cb8ee2c64339a34ee8971a9c9de7",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-08-23T08:53:22.725208+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "0585ea3f-e7f8-45c0-82ff-08bbc02cbb7f",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_DS1_v2",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testavdbuilder",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "testavdbuilder",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Delete",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/testavdbuilder451",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "testavdbuilder",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": false,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testavdbuilder/extensions/MicrosoftMonitoringAgent",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testavdbuilder/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "19044.3324.230801",
+        "id": null,
+        "offer": "Windows-10",
+        "publisher": "MicrosoftWindowsDesktop",
+        "sharedGalleryImageId": null,
+        "sku": "win10-21h2-avd-g2",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/testavdbuilder_OsDisk_1_496fd3511d9e4088b1ae20b8dbfb1a9d",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "testavdbuilder_OsDisk_1_496fd3511d9e4088b1ae20b8dbfb1a9d",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-09-06T09:42:27.479303+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "b0936f51-5e0e-47ca-a2b5-d6c96a611524",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_DS1_v2",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testimagebuilder",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "testimagebuilder",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Delete",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Network/networkInterfaces/testimagebuilder609",
+          "primary": null,
+          "resourceGroup": "azrtestavd"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "testimagebuilde",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": false,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "AZRTESTAVD",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testimagebuilder/extensions/MicrosoftMonitoringAgent",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/AZRTESTAVD/providers/Microsoft.Compute/virtualMachines/testimagebuilder/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "AZRTESTAVD",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": null,
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "19045.3324.230728",
+        "id": null,
+        "offer": "Windows-10",
+        "publisher": "MicrosoftWindowsDesktop",
+        "sharedGalleryImageId": null,
+        "sku": "win10-22h2-avd",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/azrtestavd/providers/Microsoft.Compute/disks/testimagebuilder_OsDisk_1_71c31becee9f42358caa27aa2902eeb2",
+          "resourceGroup": "azrtestavd",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "testimagebuilder_OsDisk_1_71c31becee9f42358caa27aa2902eeb2",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-09-11T08:38:28.645333+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "8e1d6b25-0fcb-40d4-9031-349b7a6644b2",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "applicationProfile": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "capacityReservation": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": null
+      }
+    },
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_DS1_v2",
+      "vmSizeProperties": null
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/TESTVMAVD_GROUP/providers/Microsoft.Compute/virtualMachines/testvmavd",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": "Windows_Client",
+    "location": "westeurope",
+    "name": "testvmavd",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": "Delete",
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/testvmavd_group/providers/Microsoft.Network/networkInterfaces/testvmavd936",
+          "primary": null,
+          "resourceGroup": "testvmavd_group"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "adminavd",
+      "allowExtensionOperations": true,
+      "computerName": "testvmavd",
+      "customData": null,
+      "linuxConfiguration": null,
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": {
+        "additionalUnattendContent": null,
+        "enableAutomaticUpdates": true,
+        "enableVmAgentPlatformUpdates": false,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "automaticByPlatformSettings": null,
+          "enableHotpatching": false,
+          "patchMode": "AutomaticByOS"
+        },
+        "provisionVmAgent": true,
+        "timeZone": null,
+        "winRm": null
+      }
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "TESTVMAVD_GROUP",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/TESTVMAVD_GROUP/providers/Microsoft.Compute/virtualMachines/testvmavd/extensions/MicrosoftMonitoringAgent",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "TESTVMAVD_GROUP",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      },
+      {
+        "autoUpgradeMinorVersion": null,
+        "enableAutomaticUpgrade": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/TESTVMAVD_GROUP/providers/Microsoft.Compute/virtualMachines/testvmavd/extensions/WindowsAgent.AzureSecurityCenter",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "protectedSettingsFromKeyVault": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "TESTVMAVD_GROUP",
+        "settings": null,
+        "suppressFailures": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "typePropertiesType": null
+      }
+    ],
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "diskControllerType": "SCSI",
+      "imageReference": {
+        "communityGalleryImageId": null,
+        "exactVersion": "19044.3324.230801",
+        "id": null,
+        "offer": "Windows-10",
+        "publisher": "MicrosoftWindowsDesktop",
+        "sharedGalleryImageId": null,
+        "sku": "win10-21h2-avd-g2",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": "Delete",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/03e7bf72-5c9f-400e-ba11-9897b532b9f3/resourceGroups/testvmavd_group/providers/Microsoft.Compute/disks/testvmavd_OsDisk_1_7ee0cad542314aae9a90124a226ed62d",
+          "resourceGroup": "testvmavd_group",
+          "securityProfile": null,
+          "storageAccountType": null
+        },
+        "name": "testvmavd_OsDisk_1_7ee0cad542314aae9a90124a226ed62d",
+        "osType": "Windows",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "AppName": "AS-IACFACTORY1-D",
+      "AutomaticReboot": "Yes",
+      "EnablePrivateNetworkGC": "TRUE",
+      "Environment": "NonProduction",
+      "PatchingDay": "Tuesday",
+      "PatchingHour": "12-14"
+    },
+    "timeCreated": "2023-09-06T09:10:19.510616+00:00",
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "f87a05b6-1502-43f8-850d-a0847b30d6fe",
+    "zones": null
+  }
+]
